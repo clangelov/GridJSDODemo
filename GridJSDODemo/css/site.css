@@ -1,0 +1,9 @@
+﻿#wrapper {
+    margin-top: 50px;
+}
+
+ /* Hide the Grid header and pager during export */
+.k-pdf-export .k-grid-toolbar,
+.k-pdf-export .k-pager-wrap {
+    display: none;
+}
